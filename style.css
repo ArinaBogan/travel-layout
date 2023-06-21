@@ -1,4 +1,4 @@
-header nav, header {
+main .travel, header nav, header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,4 +139,84 @@ main .preview-img {
   background-repeat: no-repeat;
   width: 506px;
   height: 483px;
+}
+main .travel {
+  margin-top: 110px;
+}
+main .travel .travel-img {
+  background-image: url(./assets/travel.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 646px;
+  height: 524px;
+  margin-left: 100px;
+}
+main .travel .travel-form {
+  margin-left: 27px;
+}
+main .travel .travel-form h1 {
+  font: 700 36px "Playfair Display";
+  color: #000000;
+  width: 480px;
+}
+main .travel .travel-form p {
+  margin-top: 20px;
+  font: 300 17px "Inter";
+  color: #7D7987;
+  width: 450px;
+}
+main .travel .travel-form .travel-btn {
+  margin-top: 40px;
+  font: 600 16px "Inter";
+  color: #FFFFFF;
+  background: #FB8F1D;
+  border-radius: 8px;
+  width: 164px;
+  text-align: center;
+  padding: 7px 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 190px;
+  background: #F9F9FB;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  height: 400px;
+}
+footer .column-logo {
+  width: 390px;
+}
+footer .column-logo .logo {
+  background-image: url(./assets/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 44px;
+  height: 37px;
+}
+footer .column-logo h3 {
+  margin-top: 20px;
+  font: 300 18px "Inter";
+  color: #7D7987;
+}
+footer .column-logo p {
+  font: 300 17px "Inter";
+  color: #7D7987;
+  padding-top: 40px;
+}
+footer div h1 {
+  font: 700 19px "Inter";
+  color: #000000;
+}
+footer div p {
+  font: 300 18px "Inter";
+  color: #7D7987;
+  margin-top: 10px;
 }
